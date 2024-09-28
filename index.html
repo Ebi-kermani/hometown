@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore Tehran</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+
+    <!-- Navigation Menu -->
+    <header class="header">
+        <nav>
+            <ul>
+                <li><a href="#about-us">About Us</a></li>
+                <li><a href="#Azadi Tower">About Tehran</a></li>
+                <li><a href="#history">History</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <!-- Big Title Tag at the Top -->
+    <section class="hero-section"> 
+        <div class="hero-content">
+            <h1>Welcome to Tehran</h1>
+            <p>The Heart and Soul of Iran</p>
+        </div>
+    </section>
+
+    <audio controls autoplay loop>
+        <source src="audio/kermani.mp3" type="audio/mpeg">
+        <source src="audio/kermani.wav" type="audio/wav">
+        <source src="audio/kermani.ogg" type="audio/ogg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <!-- History Section with a Background Image -->
+    <section id="history" class="content-section" style="background-image: url('https://surfiran.com/cdn-cgi/imagedelivery/wliWrYIniI_Wj1YXqCvNTg/surfiran.com/2016/09/Tehran-Milad-Tower.jpg/w=1920,h=1036');">
+        <div class="container">
+            <h2>Milad Tower</h2>
+            <p>Milad Tower, located in Tehran, is one of the city's most iconic landmarks and the sixth-tallest tower in the world. Opened in 2008, the tower offers panoramic views, a revolving restaurant, and is a symbol of modern Tehran.</p>
+        </div>
+    </section>
+
+    <!-- About Tehran Section with a Background Image -->
+    <section id="about-tehran" class="content-section" style="background-image: url('Image.jpg/tehran2.jpg');">
+        <div class="container">
+            <h2>Azadi Tower</h2>
+            <p>Azadi Tower is a prominent monument symbolizing Tehran, commemorating the 2,500th anniversary of the Persian Empire. A blend of Persian and modern architecture, it stands as one of Tehran’s most recognizable landmarks.</p>
+        </div>
+    </section>
+
+    <!-- Culture Section -->
+    <section class="content-section" style="background-image: url('Image.jpg/tehran3.jpg');">
+        <div class="container">
+            <h2>Tabiat Bridge</h2>
+            <p>The Tabiat (Nature) Bridge is a modern pedestrian bridge connecting two parks over the busy Modarres Highway. Known for its unique design, it’s one of Tehran's architectural landmarks.</p>
+        </div>
+    </section>
+
+    <!-- About Tehran -->
+    <section id="About Tehran" class="About Tehran" style="background-image: url('https://wallpapercave.com/wp/4H722rT.jpg');">
+        <div class="container">
+            <h2>About Tehran</h2>
+            <p>Tehran, the capital of Iran, has a rich and varied history that spans several centuries. Its origins can be traced back to the Neolithic era, but it remained a small village until the 13th century. By the late 18th century, it gained significance when Agha Mohammad Khan, the founder of the Qajar dynasty, declared Tehran as the capital of Persia in 1796. The city's strategic location, near the ancient city of Ray, made it an ideal choice for the Qajar rulers.</p>
+            <p>Under Qajar rule, Tehran grew rapidly, becoming the political and economic hub of Iran. The city expanded during the 19th and early 20th centuries, particularly during the reign of Reza Shah Pahlavi, who modernized Tehran by introducing Western-style architecture and infrastructure. The Pahlavi dynasty continued this modernization process, and Tehran became a center of cultural and social change.</p>
+            <p>In the 20th century, Tehran played a crucial role in Iran's political history, especially during the Iranian Revolution of 1979, which saw the overthrow of the Pahlavi monarchy and the establishment of the Islamic Republic. Since then, Tehran has grown into a bustling metropolis and a symbol of Iran's contemporary culture, politics, and economy. Today, it remains one of the largest and most influential cities in the Middle East.</p>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="footer-content">
+            <!-- About the Designer -->
+            <div class="footer-about">
+                <h3>Designed by Ebi Kermani</h3>
+                <p>Thank you for visiting the website of Tehran.</p>
+            </div>
+
+            <!-- Email Subscription Form -->
+            <div class="footer-subscription">
+                <h3>Subscribe to our Newsletter</h3>
+                <form id="subscription-form" action="your_backend_endpoint" method="post">
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+        </div>
+
+        <!-- Scroll to Top Button -->
+        <button onclick="scrollToTop()" id="scrollToTopBtn" title="Go to top">Top</button>
+    </footer>
+
+    <script>
+        // Scroll to Top Script
+        function scrollToTop() {
+            window.scrollTo({top: 0, behavior: 'smooth'});
+        }
+    </script>
+</body>
+</html>

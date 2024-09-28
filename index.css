@@ -1,0 +1,174 @@
+/* General Body Styling */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
+    background-color: #f4f4f4;
+}
+
+/* Navigation Menu */
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 100;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 15px 0;
+    display: flex;
+    justify-content: center;
+    background: transparent;
+}
+
+nav ul li {
+    margin: 0 25px;
+}
+
+nav ul li a {
+    color: #cda1a1;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+nav ul li a:hover {
+    color: #a6acc9;
+}
+
+/* Hero Section (Big Tag at Top) */
+.hero-section {
+    background-image: url('https://dl.psd-eps.com/uploads/2020/10/tehran2.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    color: #dfc22d;
+    text-shadow: 1px 1px 2px rgb(240, 218, 93), 0 0 1em rgb(90, 137, 136), 0 0 0.2em rgb(231, 195, 152);
+    text-align: center;
+    
+}
+
+.hero-section .hero-content h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 2px rgb(174, 73, 73), 0 0 1em rgb(42, 42, 70), 0 0 0.2em blue;
+}
+
+.hero-section .hero-content p {
+    font-size: 1.5rem;
+    text-shadow: 1px 1px 2px rgb(174, 73, 73), 0 0 1em rgb(42, 42, 70), 0 0 0.2em blue;
+}
+
+/* Content Section with Background Image */
+.content-section {
+    padding: 100px 20px;
+    background-size: cover;
+    background-position: center;
+    color: #eef0c5;
+    display:block;
+    justify-content: center;
+    align-items: start;
+    text-align: center;
+    text-shadow: 1px 1px 2px rgb(87, 101, 72), 0 0 1em rgb(133, 133, 178), 0 0 0.2em rgb(0, 229, 255);
+}
+
+.content-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #90e4c3;
+    align-items: start;
+    text-shadow: 1px 1px 2px rgb(174, 73, 73), 0 0 1em rgb(42, 42, 70), 0 0 0.2em blue;
+}
+
+.content-section p {
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.8;
+    align-items: start;
+    text-shadow: 1px 1px 2px rgb(91, 60, 60), 0 0 1em rgb(113, 113, 217), 0 0 0.2em rgb(106, 71, 96);
+}
+
+/* Footer Styling */
+footer {
+    background-color: #14274e;
+    padding: 40px 20px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.footer-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.footer-about h3 {
+    font-size: 1.5rem;
+    color: #f0a500;
+    margin-bottom: 15px;
+}
+
+.footer-about p {
+    font-size: 1rem;
+    color: #dcdcdc;
+}
+
+.footer-subscription h3 {
+    font-size: 1.5rem;
+    color: #f0a500;
+    margin-bottom: 15px;
+}
+
+#subscription-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#subscription-form input[type="email"] {
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #dcdcdc;
+    margin-right: 10px;
+}
+
+#subscription-form button {
+    padding: 10px 20px;
+    background-color: #f0a500;
+    color: #ffffff;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#subscription-form button:hover {
+    background-color: #e58e00;
+}
+
+.footer-bottom {
+    padding-top: 20px;
+    border-top: 1px solid #f0a500;
+}
+
+.footer-bottom p {
+    font-size: 0.9rem;
+    color: #dcdcdc;
+}
+
+.footer-bottom .designer {
+    font-size: 1rem;
+    color: #f0a500;
+}
+
